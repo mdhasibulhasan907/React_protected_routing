@@ -9,6 +9,10 @@ const Blogs = () => {
    
   const [blogs,setBlogs]=useState(blogsData);
   const [BodyData,setBodydata]=useState("");
+ 
+
+  
+
 
 
   const truncateString=(str,num)=>{
